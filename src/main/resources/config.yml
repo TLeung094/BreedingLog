@@ -1,0 +1,39 @@
+default-language: en_US
+
+affection:
+  initial: 50
+  breeding-threshold: 60
+  minimum: 0
+  maximum: 100
+  pat-increase: 5
+  pat-cooldown-seconds: 30
+  attack-decrease: 10
+  frequent-harvest-decrease: 3
+  harvest-cooldown-seconds: 30
+  daily-decay: 1
+  decay-floor: 50
+
+performance:
+  animal-scan-radius: 48
+  max-breeding-candidates: 20
+
+ranch:
+  experience-per-level: 100
+  experience-level-increment: 50
+  breeding-experience: 25
+  birth-experience: 50
+  kill-experience: 10
+  harvest-experience: 5
+
+pregnancy:
+  default-minutes: 2
+  minutes:
+    COW: 5
+    SHEEP: 5
+    PIG: 5
+    HORSE: 8
+    DONKEY: 8
+    LLAMA: 8
+    CAMEL: 8
+    TURTLE: 10
+    FROG: 10

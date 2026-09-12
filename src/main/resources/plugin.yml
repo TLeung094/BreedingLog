@@ -1,0 +1,35 @@
+name: BreedingLog
+version: '${pluginVersion}'
+main: com.example.breedinglog.BreedingLogPlugin
+api-version: '26.2'
+folia-supported: true
+softdepend:
+  - CraftEngine
+authors:
+  - BreedingLog Team
+description: Relationship-driven animal breeding for Paper, Spigot, and Folia.
+commands:
+  bbreeding:
+    description: BreedingLog commands
+    usage: /bbreeding <info|toggle|reload>
+    aliases:
+      - breedinglog
+permissions:
+  breedinglog.admin:
+    description: Allows administrative BreedingLog commands.
+    default: op
+  breedinglog.info:
+    description: Allows viewing ranch information.
+    default: true
+  breedinglog.toggle:
+    description: Allows toggling animal status display.
+    default: true
+  breedinglog.gender:
+    description: Allows viewing animal gender.
+    default: true
+  breedinglog.transfer:
+    description: Allows transferring adopted animals.
+    default: true
+  breedinglog.lang:
+    description: Allows changing language.
+    default: true

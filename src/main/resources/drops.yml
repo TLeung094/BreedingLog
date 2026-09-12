@@ -1,0 +1,53 @@
+harvest:
+  SHEEP:
+    tool: SHEARS
+    result: WHITE_WOOL
+    amount: 1
+  COW:
+    tool: BUCKET
+    result: MILK_BUCKET
+    amount: 1
+  GOAT:
+    tool: BUCKET
+    result: MILK_BUCKET
+    amount: 1
+  MOOSHROOM:
+    tool: BOWL
+    result: MUSHROOM_STEW
+    amount: 1
+  CHICKEN:
+    tool: BRUSH
+    result: EGG
+    amount: 1
+  ARMADILLO:
+    tool: BRUSH
+    result: ARMADILLO_SCUTE
+    amount: 1
+  RABBIT:
+    tool: SHEARS
+    result: RABBIT_HIDE
+    amount: 1
+  BEE:
+    tool: SHEARS
+    result: HONEYCOMB
+    amount: 1
+
+passive:
+  interval-seconds: 300
+  chance: 1.0
+  amount: 1
+  result: BROWN_DYE
+  types:
+    COW: true
+    MOOSHROOM: true
+    SHEEP: true
+    GOAT: true
+    PIG: true
+    CHICKEN: true
+    RABBIT: true
+    HORSE: true
+    DONKEY: true
+    MULE: true
+    LLAMA: true
+    CAMEL: true
+    ARMADILLO: true
